@@ -1,34 +1,34 @@
-# Dragon Ball 2D Game
+# Dragon Ball 2D Game WITH CS50x
 
 #### Video Demo: <URL HERE>
 #### Description:
-This is a 2D adventure game inspired by Dragon Ball, created as my CS50 Final Project.
+This is a 2D adventure game inspired by Dragon Ball, created as my **CS50x Final Project**.  
 
-The player controls a character who can move around the map, fight enemies, collect items, and restore health.  
-I designed and customized sprites (using simple editing tools like Paint and PowerPoint) and implemented original attack effects.  
-The game demonstrates fundamental programming concepts such as:
-- **Object-Oriented Design (Java)**: characters, enemies, and items are represented as different classes.  
-- **Event Handling**: user keyboard inputs control movement, attacks, and interactions.  
-- **Game Loop**: real-time updating of position, collision detection, and rendering.  
-- **Resource Management**: images, audio, and animation sequences are loaded and displayed in sequence.  
+The player can move around the map, fight enemies, collect items, and restore health.  
+All sprites and effects were either self-made or adjusted using simple tools like MS Paint and PowerPoint.  
+The game demonstrates fundamental programming concepts, including:
+- **Object-Oriented Design (Java)**: characters, enemies, and items are modeled as classes  
+- **Event Handling**: keyboard inputs control movement and attacks  
+- **Game Loop**: updating positions, collision detection, and rendering  
+- **Resource Management**: images, sounds, and animations loaded dynamically  
 
 ### Features
-- Character movement in four directions.
-- Combat system: melee and ranged attacks (Kamehameha-style energy balls).
-- Enemy AI with health bars and attack responses.
-- Item collection system: hearts (HP), gems (points).
-- Experience system: defeating enemies increases EXP.
-- Custom sprites and backgrounds, inspired but not copied from the original Dragon Ball.
+- Character movement in four directions  
+- Combat system: melee and ranged energy attack (original “Ki Blast”)  
+- Enemy AI with HP bar and counterattack behavior  
+- Collectible items: hearts (healing), gems (score)  
+- EXP system: gain experience after defeating enemies  
+- Custom-designed sprites and backgrounds, Dragon Ball–themed but not copied directly  
 
 ### Technical Details
-- Language: **Java**
-- Framework: pure Java 2D graphics (no external engines).
-- Build Tool: currently packaged as `.jar`, runnable on any Java environment.
-- Version Control: managed with GitHub (branches for `main`, `dev`, and `feature/*`).
-- IDE: Eclipse
+- Language: **Java**  
+- Framework: Java 2D Graphics (no external game engine)  
+- Packaging: JAR executable  
+- Version Control: GitHub with branches (`main`, `dev`, `feature/*`)  
+- IDE: Eclipse  
 
 ### How to Run
-1. Clone the repository:
+1. Clone the repo:
    ```bash
    git clone https://github.com/yourusername/2DGame.git
 
