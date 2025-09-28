@@ -24,7 +24,7 @@ The game demonstrates fundamental programming concepts, including:
 - Language: **Java**  
 - Framework: Java 2D Graphics (no external game engine)  
 - Packaging: JAR executable  
-- Version Control: GitHub with branches (`main`, `dev`, `feature/*`)  
+- Version Control: GitHub with branches (`master`, `dev`, `feature/*`)  
 - IDE: Eclipse  
 
 ### How to Run
