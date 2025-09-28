@@ -2,6 +2,9 @@ package main;
 
 import javax.swing.JFrame;
 
+/**
+ * 應用程式進入點，負責建立視窗、掛載遊戲面板並啟動遊戲主執行緒。
+ */
 public class Main {
 	
 	public static void main(String[] args) {

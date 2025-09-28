@@ -12,6 +12,9 @@ import javax.imageio.ImageIO;
 import main.GamePanel;
 import main.UtilityTool;
 
+/**
+ * 所有遊戲實體的基底類別，定義共用的座標、動畫、狀態與互動邏輯。
+ */
 public class Entity { // 玩家與其他角色NPC的Super
 
 	GamePanel gp;

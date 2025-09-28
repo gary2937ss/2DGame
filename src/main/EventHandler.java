@@ -3,6 +3,9 @@ package main;
 import java.awt.Rectangle;
 import java.util.Random;
 
+/**
+ * 負責管理地圖上的事件觸發，包括瞬間移動、陷阱與補給等互動效果。
+ */
 public class EventHandler {
 	
 	GamePanel gp;

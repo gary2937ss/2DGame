@@ -2,6 +2,9 @@ package entity;
 
 import main.GamePanel;
 
+/**
+ * 抽象化的投射物實體，提供發射設定、移動更新與與目標互動的基本流程。
+ */
 public class Projectile extends Entity{
 	
 	Entity user;

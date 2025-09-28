@@ -10,6 +10,9 @@ import object.OBJ_Door;
 import object.OBJ_Key;
 import object.OBJ_Shield_Blue;
 
+/**
+ * 根據預設配置在地圖上放置物件、NPC與怪物，確保遊戲開始前擁有完整場景內容。
+ */
 public class AssetSetter {
 	
 	GamePanel gp;

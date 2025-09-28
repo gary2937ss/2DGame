@@ -20,6 +20,9 @@ import object.OBJ_Rock;
 import object.OBJ_Shield_Wood;
 import object.OBJ_Sword_Normal;
 
+/**
+ * 玩家角色實作，處理輸入反應、狀態數值、碰撞檢查以及攻擊與背包管理。
+ */
 public class Player extends Entity {
 
 	

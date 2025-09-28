@@ -6,6 +6,9 @@ import entity.Entity;
 import main.GamePanel;
 import object.OBJ_Rock;
 
+/**
+ * 地圖上的一般怪物，設定移動速度、能力值並能發射石塊攻擊玩家。
+ */
 public class MON_Ter extends Entity{
 	
 	GamePanel gp;

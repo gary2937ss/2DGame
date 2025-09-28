@@ -2,6 +2,9 @@ package main;
 
 import entity.Entity;
 
+/**
+ * 負責檢查實體與地圖、物件、其他實體以及玩家的碰撞，以維持正確的移動與互動。
+ */
 public class CollisionChecker {
 
 	GamePanel gp;

@@ -16,6 +16,10 @@ import entity.Player;
 
 import tile.TileManager;
 
+/**
+ * 遊戲的主要畫面元件，負責初始化地圖、實體與音效資源，
+ * 並以遊戲主迴圈更新與繪製玩家、NPC、怪物及投射物等內容。
+ */
 public class GamePanel extends JPanel implements Runnable {
 	// GamePanel繼承JPanel可以使用所有功能。 GamePanel當作遊戲畫面
 	// field

@@ -16,6 +16,10 @@ import object.OBJ_Heart;
 import object.OBJ_Key;
 import object.OBJ_ManaCrystal;
 import entity.Entity;
+
+/**
+ * 統一管理遊戲介面的繪製邏輯，負責顯示標題畫面、角色血量魔力、訊息提示與背包介面。
+ */
 public class UI { //處理螢幕上所有的UI活動
 	
 	GamePanel gp;

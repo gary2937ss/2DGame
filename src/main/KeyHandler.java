@@ -3,6 +3,9 @@ package main;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener; //用來接收鍵盤輸入的事件
 
+/**
+ * 監聽鍵盤輸入並依據遊戲狀態更新玩家操作旗標，包含移動、攻擊與選單導覽等行為。
+ */
 public class KeyHandler implements KeyListener {
 
 	GamePanel gp;

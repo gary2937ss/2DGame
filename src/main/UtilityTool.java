@@ -3,6 +3,9 @@ package main;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
+/**
+ * 提供通用輔助功能，目前用於縮放圖片資源以符合遊戲圖塊尺寸需求。
+ */
 public class UtilityTool { // 這裡是百寶箱，當有任何函數或功能，可以在此調用
 	
 	public BufferedImage scaleImage(BufferedImage original, int width, int height) {

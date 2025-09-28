@@ -12,6 +12,9 @@ import javax.imageio.ImageIO;
 import main.GamePanel;
 import main.UtilityTool;
 
+/**
+ * 可消耗的仙豆道具，使用後恢復玩家生命並播放對應訊息與音效。
+ */
 public class TileManager {
 	
 	GamePanel gp;

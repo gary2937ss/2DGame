@@ -6,6 +6,9 @@ import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
+/**
+ * 管理遊戲內的音效資源，提供讀取、播放、循環與停止音樂/音效的功能。
+ */
 public class Sound {
 	
 	Clip clip;

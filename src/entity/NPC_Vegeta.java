@@ -4,6 +4,9 @@ import java.util.Random;
 
 import main.GamePanel;
 
+/**
+ * 遊戲中的可互動NPC，負責載入貝吉塔的圖像與對話並以隨機路徑巡邏。
+ */
 public class NPC_Vegeta extends Entity {
 
 	public NPC_Vegeta(GamePanel gp) {
