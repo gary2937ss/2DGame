@@ -1,6 +1,7 @@
 # Dragon Ball 2D Game WITH CS50x
 
 #### Video Demo: [Watch on YouTube](https://www.youtube.com/watch?v=M5aWyvVEVBQ)
+#### https://www.youtube.com/watch?v=M5aWyvVEVBQ
 #### Description:
 This is a 2D adventure game inspired by Dragon Ball, created as my **CS50x Final Project**.  
 
